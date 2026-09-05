@@ -23,8 +23,8 @@ fake = Faker('en_IN')
 connection = mysql.connector.connect(
     host='localhost',      # MySQL is running on this same computer
     port=3306,             # Default MySQL port
-    user='root',           # The administrator user
-    password='root',  # Your MySQL root password
+    user='',           # The administrator user
+    password='',  # Your MySQL root password
     database='caresync'    # The database we created
 )
 cursor = connection.cursor()
