@@ -15,8 +15,8 @@ from datetime import date
 connection = mysql.connector.connect(
     host='localhost',
     port=3306,
-    user='root',
-    password='CareSync@2024',
+    user='',
+    password='',
     database='caresync'
 )
 cursor = connection.cursor(dictionary=True)  # dictionary=True gives us column names
